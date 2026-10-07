@@ -2,6 +2,8 @@
 
 **Live dashboard:** [View on Tableau Public](https://public.tableau.com/app/profile/seraphim.ikuomola1586/viz/MinnesotaCountyHealthDashboard/MinnesotaCountyHealthDashboard)
 
+![Minnesota County Health Dashboard](dashboard.png)
+
 An interactive Tableau dashboard showing health outcome measures across Minnesota's 87 counties, built from a dataset I cleaned and prepared for Tableau.
 
 ## What the dashboard shows
@@ -16,6 +18,8 @@ I wanted to practice preparing a real dataset for a BI tool and then build and p
 
 ## What's in this repo
 
+- `MinnesotaCountyHealthDashboard.twbx`: the Tableau workbook (open it in Tableau Desktop or Tableau Public)
+- `dashboard.png`: screenshot of the dashboard
 - `mn_county_health_tableau_ready.csv`: 87 MN counties, the same 4 health measures used in the SQL and Python projects in this portfolio, plus a percentile rank for each measure
 - `DASHBOARD_DESIGN.md`: the original dashboard plan, including a suggested calculated field for a composite risk score
 
